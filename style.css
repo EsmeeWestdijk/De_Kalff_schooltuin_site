@@ -3,24 +3,36 @@ body {
     font-family: Kohinoor Devanagari;
 }
 
+@font-face {
+    font-family: "lullabies-text";
+    src: url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"), url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"), url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+}
+
+.tk-lullabies-text {
+    font-family: "lullabies-text", sans-serif;
+}
+
+
 h1,
 h1 {
     display: flex;
     justify-content: center;
 }
 
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: #C78012 ;
-}
-
 nav a{
     text-decoration: none;
-    color: #FCF8CD;
-    
+    background-color: #C78012;
+    color: #EAE8D6;
+    border-radius: 0.2em;
+  
+}
+
+nav ul{
+    list-style-type: none;
 }
 
 
@@ -38,20 +50,34 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: auto;
+    background-color: #C78012;
+    margin: 2em;
+    border-radius: 2em;
 }
 
 .foto_home_2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:left;
-    background-color:#DFCA6E;
+    justify-content: flex-start;
     margin: 2em;
+    
+}
+
+.foto_naast_tekst {
+    display: flex;
+    justify-content:center; 
+    margin: 1em;
 
 }
 
-.kopje1 {
+.kopje11 {
+    background-image: url(foto/verfvlek_oranje_donker.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+
+.kopje12 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
@@ -60,7 +86,6 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
-    
 }
 
 .kopje2 {
@@ -72,7 +97,7 @@ nav a{
     margin: 1em;
 }
 
-.kopje3{
+.kopje3 {
     background-image: url(foto/verfvlek_geel_kopje3.png);
     background-position: center;
     background-size: cover;
@@ -80,22 +105,22 @@ nav a{
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     margin: 1em;
 
 }
 
-.kopje4{
+.kopje4 {
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 30px;
-    margin: 1em; 
+    margin: 1em;
 
 }
 
-.kopje5{
+.kopje5 {
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
@@ -104,7 +129,7 @@ nav a{
 
 }
 
-.kopje6{
+.kopje6 {
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
@@ -112,22 +137,21 @@ nav a{
     margin: 1em;
 }
 
-.kopje7{
+.kopje7 {
     background-image: url(foto/);
     background-position: center;
     background-size: cover;
     margin: 1em;
-
 }
 
-.kopje8{
+.kopje8 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
-    margin: 1em; 
+    margin: 1em;
 }
 
-.lijst_schooltuinen{
+.lijst_schooltuinen {
     display: flex;
     justify-content: center;
 
