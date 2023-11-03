@@ -1,49 +1,57 @@
-
-body{
+body {
     background-color: #EAE8D6;
-    font-family: Kohinoor Devanagari; 
+    font-family: Kohinoor Devanagari;
 }
 
-ul{
-    list-style-type: none;
-   
-}
-
-.logo_groot{
+h1,
+h1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding: 0.5em;
-    width:100%;
-    height: auto;
+    justify-content: center;
 }
 
-.foto_home_1{
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #C78012 ;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FCF8CD;
+    
+}
+
+
+.logo_groot {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 1em;
-    background-color: #DFCA6E; 
-    width:100%;
+    padding: 0.5em;
+    width: 100%;
     height: auto;
 }
 
-.foto_home_2{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content:center;
-   padding: 1em;
-   margin: 1em;
-   border-radius: 1em;
-   background-color: #DFCA6E;
-   width:100%;
-   height: auto;
+
+.foto_home_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
+.foto_home_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color:#DFCA6E;
+    margin: 2em;
 
-.kopje1{
+}
+
+.kopje1 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
@@ -51,30 +59,80 @@ ul{
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: 1em;
+    
 }
 
-
-.test{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-}
-.kopje2{
+.kopje2 {
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-   
-.button{
-    text-decoration: none;
-    background-color: #659866;
-    font-family: Lullabies;
-   color: #EAE8D6;
+    margin: 1em;
 }
 
-footer img{
+.kopje3{
+    background-image: url(foto/verfvlek_geel_kopje3.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 1em;
+
+}
+
+.kopje4{
+    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin: 1em; 
+
+}
+
+.kopje5{
+    background-image: url(foto/verfvlek_groen_2.png);
+    background-position: center;
+    background-size: cover;
+    margin: 1em;
+    padding-bottom: 30px;
+
+}
+
+.kopje6{
+    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+    margin: 1em;
+}
+
+.kopje7{
+    background-image: url(foto/);
+    background-position: center;
+    background-size: cover;
+    margin: 1em;
+
+}
+
+.kopje8{
+    background-image: url(foto/verfvlek_oranje_donker.png);
+    background-position: center;
+    background-size: cover;
+    margin: 1em; 
+}
+
+.lijst_schooltuinen{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer img {
     width: 100%;
 }
