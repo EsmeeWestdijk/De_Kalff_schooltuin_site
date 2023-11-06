@@ -16,6 +16,9 @@ body {
     font-family: "lullabies-text", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 
 h1,
 h1 {
@@ -28,6 +31,7 @@ nav a{
     background-color: #C78012;
     color: #EAE8D6;
     border-radius: 0.2em;
+    padding: 0.2em;
   
 }
 
@@ -39,6 +43,7 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    background-color: #DCBE83;
 }
 
 
@@ -70,10 +75,15 @@ nav ul{
 
 }
 
-.tekst_naast_foto{
+.tekst_naast_foto_links{
     display: flex;
-    justify-content:flex-start
+    justify-content:left; 
 }
+
+.tekst_naast_foto_rechts{
+    display: flex;
+    justify-content:right; 
+ }
 
 .kopje11 {
     background-image: url(foto/verfvlek_groen_2.png);
@@ -81,7 +91,6 @@ nav ul{
     background-size: cover;
     margin: 1em;
     flex-wrap: wrap;
-  
 }
 
 .kopje12{
@@ -111,14 +120,41 @@ nav ul{
     margin: 1em;
 }
 
+.knopje_schooltuin{
+    display: flex;
+    justify-content: center;
+}
+
+
+.over_foto_1{
+    background-color:#DFCA6E; 
+    padding-top: 4em;
+    border-radius: 2em;
+}
+
 .kopje3 {
     background-image: url(foto/verfvlek_geel_kopje3.png);
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 1em;
+}
+
+
+.kopje31 {
+    background-image: url(foto/verfvlek_geel_3.png);
+    background-position: center;
+    background-size: cover;
+    margin: 1em;
+    padding: 1em ;
+}
+
+
+
+.kopje4 {
+    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-position: center;
+    background-size: cover;
+    padding: 1.5em;
 
 }
 
@@ -126,22 +162,11 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    margin: 1em;
-}
-
-.kopje4 {
-    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
-    background-position: center;
-    background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    margin: 1em;
+    padding: 3em;
 
 }
 
-.fotorij1, .fotorij2, .fotorij3, .fotorij4{
+.fotorij{
     display: flex;
     justify-content: space-between;
     background-color: #DFCA6E; 
@@ -153,25 +178,15 @@ nav ul{
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
-    margin: 1em;
-    padding-bottom: 30px;  
+    padding: 2em;
+ 
 }
 
-
-.foto_duurzaam_links{
-    display: flex;
-    justify-content:left; 
-}
-
-.foto_duurzaam_rechts{
+.illustratie_links{
     display: flex;
     justify-content: flex-end;
+    padding-top: 1em;
 }
-
-.tekst_foto_duurzaamheid{
-    display: flex;
-}
-
 
 
 .kopje7 {
@@ -179,8 +194,36 @@ nav ul{
     background-position: center;
     background-size: cover;
     margin: 1em;
-    padding-bottom: 30px;
+    
+}
 
+.foto_duurzaam_links_1{
+    background-color: #DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 15em;
+   
+}
+
+.foto_duurzaam_links_2{
+    background-color:#DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.foto_duurzaam_rechts_1{
+    background-color: #DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 10em ;
+}
+
+.foto_duurzaam_rechts_2{
+    background-color:#DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 12em;
 }
 
 
@@ -188,7 +231,6 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    padding-bottom: 30px;
     margin: 1em;
 }
 
@@ -210,14 +252,33 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    padding-bottom: 30px;
     margin: 1em; 
+
+}
+
+.kopje101{
+    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+}
+
+.kopje14{
+    background-image: url(foto/verfvlek_groen_2.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+}
+
+.kopje15{
+    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .lijst_schooltuinen {
     display: flex;
     justify-content: center;
-
 }
 
 footer img {
