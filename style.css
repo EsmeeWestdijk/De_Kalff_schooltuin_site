@@ -77,12 +77,12 @@ nav ul{
 
 .tekst_naast_foto_links{
     display: flex;
-    justify-content:left; 
+    justify-content: flex-start;
 }
 
 .tekst_naast_foto_rechts{
     display: flex;
-    justify-content:right; 
+    justify-content:right;
  }
 
 .kopje11 {
@@ -194,6 +194,7 @@ nav ul{
     background-position: center;
     background-size: cover;
     margin: 1em;
+    margin-bottom: 2em;
     
 }
 
@@ -202,7 +203,7 @@ nav ul{
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 15em;
-   
+    margin-top: 10em;
 }
 
 .foto_duurzaam_links_2{
@@ -210,6 +211,7 @@ nav ul{
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .foto_duurzaam_rechts_1{
@@ -217,6 +219,7 @@ nav ul{
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 10em ;
+    margin-top: 10em ;
 }
 
 .foto_duurzaam_rechts_2{
@@ -224,6 +227,7 @@ nav ul{
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 12em;
+    margin-top: 10em;
 }
 
 
@@ -232,6 +236,7 @@ nav ul{
     background-position: center;
     background-size: cover;
     margin: 1em;
+    
 }
 
 .kopje8 {
