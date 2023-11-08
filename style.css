@@ -38,6 +38,7 @@ h1,
 h1 {
     display: flex;
     justify-content: center;
+    
 }
 
 nav a{
@@ -61,7 +62,7 @@ li{
 
 img{
     border-radius: 1em;
-    transition: all 500ms ease;
+    transition: all 10ms ease;
 }
 
 img:active{
@@ -196,6 +197,7 @@ img:active{
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
+    margin-bottom: 2em;
    
 }
 
@@ -209,18 +211,20 @@ img:active{
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
+    margin-bottom: 2em;
    
 
 }
 
 .kopje5{
-    background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
+    background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
     background-size: 160vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
+    margin-bottom: 2em;
 
 }
 
@@ -361,13 +365,20 @@ img:active{
     background-position: center;
     background-repeat: no-repeat;
     margin: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-bottom: 2em;
 }
 
 .kopje15{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-size: cover;
+    background-size: 250vw;
     background-position: center;
     background-repeat: no-repeat;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-bottom: 2em;
 }
 
 .lijst_schooltuinen {
@@ -381,7 +392,7 @@ img:active{
     font-size: small;
     border-radius: 2em;
     margin: 3em;
-    transition: all 20ms ease;
+    transition: all 3ms ease;
 }
 
 .knopje_schooltuin:active{
