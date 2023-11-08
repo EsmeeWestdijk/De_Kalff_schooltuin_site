@@ -16,8 +16,22 @@ body {
     font-family: "lullabies-text", sans-serif;
 }
 
+nav a:hover{
+    background-color: #DCBE83;
+}
+
+ nav a:focus{
+    background-color: #DCBE83;
+}
+
+ nav a:active{
+    background-color: #DCBE83;
+}
+
+
 a{
     text-decoration: none;
+    color: #EAE8D6;
 }
 
 h1,
@@ -32,11 +46,26 @@ nav a{
     color: #EAE8D6;
     border-radius: 0.2em;
     padding: 0.2em;
+    font-size: 0.8em;
   
 }
 
 nav ul{
     list-style-type: none;
+   
+}
+
+li{
+    margin: 0.5em;
+}
+
+img{
+    border-radius: 1em;
+    transition: all 800ms ease;
+}
+
+img:active{
+    transform: scale(1.25);
 }
 
 .logo_klein{
@@ -141,8 +170,11 @@ nav ul{
 
 .over_foto_1{
     background-color:#DFCA6E; 
-    padding-top: 4em;
+    padding: 1em;
     border-radius: 2em;
+    margin-bottom: 10em;
+    margin-top: 8em;
+
 }
 
 .kopje3 {
@@ -223,7 +255,7 @@ nav ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 150vw; 
+    background-size: 120vw; 
     margin-left: 1em;
    
 }
@@ -232,7 +264,7 @@ nav ul{
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
-    background-size: 110vw;
+    background-size: 130vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
@@ -242,8 +274,8 @@ nav ul{
     background-color: #DFCA6E;
     border-radius: 2em;
     padding: 1em;
-    margin-bottom: 3em;
-    margin-top: 10em;
+    margin-bottom: 8em;
+    margin-top: 5em;
 }
 
 .foto_duurzaam_links_2{
@@ -266,8 +298,8 @@ nav ul{
     background-color:#DFCA6E;
     border-radius: 2em;
     padding: 1em;
-    margin-bottom: 12em;
-    margin-top: 10em;
+    margin-bottom: 5em;
+    margin-top: 6em;
 }
 
 
@@ -275,7 +307,7 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    background-size: 80vw;
+    background-size: 120vw;
     background-repeat: no-repeat;
     margin: 1em;
     
@@ -285,7 +317,7 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    background-size: 110vw;
+    background-size: 120vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
@@ -305,6 +337,7 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
+    background-size: 130vw;
     background-repeat: no-repeat;
     margin: 1em; 
 
@@ -314,8 +347,10 @@ nav ul{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
+    background-size: 130vw;
     background-repeat: no-repeat;
-    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .kopje14{
@@ -337,6 +372,22 @@ nav ul{
     display: flex;
     justify-content: center;
 }
+
+.knopje_schooltuin{
+    background-color: #658066;
+    padding: 1em;
+    font-size: small;
+    border-radius: 2em;
+    margin: 3em;
+    transition: all 200 ease;
+}
+
+.knopje_schooltuin:active{
+    transform: scale(1.25);
+    background-color: #C78012;
+}
+
+
 
 footer img {
     width: 100%;
