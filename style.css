@@ -61,7 +61,7 @@ li{
 
 img{
     border-radius: 1em;
-    transition: all 800ms ease;
+    transition: all 500ms ease;
 }
 
 img:active{
@@ -99,8 +99,10 @@ img:active{
 .foto_home_2 {
     justify-content: flex-start;
     background-color: #DFCA6E;
-    padding: 1em;
     border-radius: 2em;
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 6em;
 
 }
 
@@ -142,7 +144,7 @@ img:active{
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
-    background-size: 120vw;
+    background-size: 130vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
@@ -246,7 +248,7 @@ img:active{
 .illustratie_links{
     display: flex;
     justify-content: flex-end;
-    padding-top: 1em;
+    padding: 0.5em;
 }
 
 
@@ -379,7 +381,7 @@ img:active{
     font-size: small;
     border-radius: 2em;
     margin: 3em;
-    transition: all 200 ease;
+    transition: all 20ms ease;
 }
 
 .knopje_schooltuin:active{
