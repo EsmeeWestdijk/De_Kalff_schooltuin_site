@@ -3,18 +3,6 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-@font-face {
-    font-family: "lullabies-text";
-    src: url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"), url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"), url("https://use.typekit.net/af/bbb7f8/0000000000000000774ba0a7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 200;
-    font-stretch: normal;
-}
-
-.tk-lullabies-text {
-    font-family: "lullabies-text", sans-serif;
-}
 
 nav a:hover{
     background-color: #DCBE83;
@@ -38,22 +26,18 @@ h1,
 h1 {
     display: flex;
     justify-content: center;
-    
+    font-family: "lullabies-text", sans-serif;
 }
 
 nav a{
-    text-decoration: none;
     background-color: #C78012;
-    color: #EAE8D6;
     border-radius: 0.2em;
     padding: 0.2em;
     font-size: 0.8em;
-  
 }
 
 nav ul{
     list-style-type: none;
-   
 }
 
 li{
@@ -62,12 +46,79 @@ li{
 
 img{
     border-radius: 1em;
-    transition: all 10ms ease;
+    transition: all 100ms ease;
 }
 
 img:active{
     transform: scale(1.25);
 }
+
+.tekst_naast_foto_links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tekst_naast_foto_rechts{
+    display: flex;
+    justify-content:right;
+}
+
+
+.illustratie_links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+}
+
+
+.foto_duurzaam_links_1{
+    background-color: #DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 8em;
+    margin-top: 5em;
+}
+
+.foto_duurzaam_links_2{
+    background-color:#DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.foto_duurzaam_rechts_1{
+    background-color: #DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 4em ;
+    margin-top: 5em ;
+}
+
+.foto_duurzaam_rechts_2{
+    background-color:#DFCA6E;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 5em;
+    margin-top: 6em;
+}
+
+.knopje_schooltuin{
+    display: flex;
+    justify-content: center;
+    background-color: #658066;
+    padding: 1em;
+    font-size: small;
+    border-radius: 2em;
+    margin: 3em;
+    transition: all 3ms ease;
+}
+
+.knopje_schooltuin:active{
+    transform: scale(1.25);
+    background-color: #C78012;
+}
+
 
 .logo_klein{
     display: flex;
@@ -106,16 +157,6 @@ img:active{
     margin-bottom: 6em;
 
 }
-
-.tekst_naast_foto_links{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.tekst_naast_foto_rechts{
-    display: flex;
-    justify-content:right;
- }
 
 .kopje11 {
     background-image: url(foto/verfvlek_oranje_donker.png);
@@ -163,11 +204,6 @@ img:active{
     padding-left: 3em;
     padding-right: 3em;
     margin: 1em;
-}
-
-.knopje_schooltuin{
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -249,12 +285,6 @@ img:active{
  
 }
 
-.illustratie_links{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5em;
-}
-
 
 .kopje7 {
     background-image: url(foto/verfvlek_groen_2.png);
@@ -274,38 +304,6 @@ img:active{
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
-}
-
-.foto_duurzaam_links_1{
-    background-color: #DFCA6E;
-    border-radius: 2em;
-    padding: 1em;
-    margin-bottom: 8em;
-    margin-top: 5em;
-}
-
-.foto_duurzaam_links_2{
-    background-color:#DFCA6E;
-    border-radius: 2em;
-    padding: 1em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
-.foto_duurzaam_rechts_1{
-    background-color: #DFCA6E;
-    border-radius: 2em;
-    padding: 1em;
-    margin-bottom: 4em ;
-    margin-top: 5em ;
-}
-
-.foto_duurzaam_rechts_2{
-    background-color:#DFCA6E;
-    border-radius: 2em;
-    padding: 1em;
-    margin-bottom: 5em;
-    margin-top: 6em;
 }
 
 
@@ -376,9 +374,7 @@ img:active{
     background-size: 250vw;
     background-position: center;
     background-repeat: no-repeat;
-    padding-left: 3em;
-    padding-right: 3em;
-    margin-bottom: 2em;
+    margin: 2em;
 }
 
 .lijst_schooltuinen {
