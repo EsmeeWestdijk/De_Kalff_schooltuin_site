@@ -1,28 +1,21 @@
 body {
     background-color: #EAE8D6;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-display: swap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.tk-lullabies-tekst{
+.tk-lullabies-tekst {
     font-family: "lullabies-text", sans-serif;
-    font-display: swap;
 }
 
-nav a:hover{
-    background-color: #DCBE83;
-}
 
- nav a:focus{
-    background-color: #DCBE83;
-}
-
- nav a:active{
+nav a:hover,
+nav a:focus,
+nav a:active {
     background-color: #DCBE83;
 }
 
 
-a{
+a {
     text-decoration: none;
     color: #EAE8D6;
 }
@@ -33,50 +26,44 @@ h1 {
     justify-content: center;
 }
 
-nav a{
+nav a {
     background-color: #C78012;
     border-radius: 0.2em;
     padding: 0.2em;
     font-size: 0.8em;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-li{
+li {
     margin: 0.5em;
 }
 
-img{
+img {
     border-radius: 1em;
     transition: all 100ms ease;
 }
 
-img:active{
+img:active {
     transform: scale(1.25);
 }
 
-.tekst_naast_foto_links{
+
+.tekst_naast_foto_links {
     display: flex;
     justify-content: flex-start;
 }
 
-.tekst_naast_foto_rechts{
+.tekst_naast_foto_rechts,
+.illustratie_rechts {
     display: flex;
-    justify-content:right;
+    justify-content: flex-end;
 }
 
 
-.illustratie_rechts{
-    display: flex;
-    justify-content:flex-end;
-    
-}
-
-
-
-.foto_duurzaam_links_1{
+.foto_duurzaam_links_1 {
     background-color: #DFCA6E;
     border-radius: 2em;
     padding: 1em;
@@ -84,31 +71,32 @@ img:active{
     margin-top: 5em;
 }
 
-.foto_duurzaam_links_2{
-    background-color:#DFCA6E;
+.foto_duurzaam_links_2 {
+    background-color: #DFCA6E;
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 2em;
     margin-top: 2em;
 }
 
-.foto_duurzaam_rechts_1{
+.foto_duurzaam_rechts_1 {
     background-color: #DFCA6E;
     border-radius: 2em;
     padding: 1em;
-    margin-bottom: 4em ;
-    margin-top: 5em ;
+    margin-bottom: 4em;
+    margin-top: 5em;
 }
 
-.foto_duurzaam_rechts_2{
-    background-color:#DFCA6E;
+.foto_duurzaam_rechts_2 {
+    background-color: #DFCA6E;
     border-radius: 2em;
     padding: 1em;
     margin-bottom: 5em;
     margin-top: 6em;
 }
 
-.knopje_schooltuin{
+
+.knopje_schooltuin {
     display: flex;
     justify-content: center;
     background-color: #658066;
@@ -119,13 +107,13 @@ img:active{
     transition: all 3ms ease;
 }
 
-.knopje_schooltuin:active{
+.knopje_schooltuin:active {
     transform: scale(1.25);
     background-color: #C78012;
 }
 
 
-.logo_klein{
+.logo_klein {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
@@ -147,7 +135,7 @@ img:active{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2em; 
+    margin: 2em;
     background-color: #DFCA6E;
     padding: 0.5em;
     border-radius: 1em;
@@ -173,7 +161,7 @@ img:active{
     flex-wrap: wrap;
 }
 
-.kopje12{
+.kopje12 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
@@ -183,7 +171,7 @@ img:active{
     padding-right: 3em;
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 .kopje13 {
@@ -209,8 +197,8 @@ img:active{
 }
 
 
-.over_foto_1{
-    background-color:#DFCA6E; 
+.over_foto_1 {
+    background-color: #DFCA6E;
     padding: 1em;
     border-radius: 2em;
     margin-bottom: 10em;
@@ -231,12 +219,12 @@ img:active{
     background-image: url(foto/verfvlek_geel_3.png);
     background-position: center;
     background-size: cover;
-    background-size: 110vw ;
+    background-size: 110vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
     margin-bottom: 2em;
-   
+
 }
 
 
@@ -245,7 +233,7 @@ img:active{
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
-    background-size: 140vw ;
+    background-size: 140vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
@@ -253,7 +241,7 @@ img:active{
 
 }
 
-.kopje5{
+.kopje5 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
@@ -266,25 +254,25 @@ img:active{
 
 }
 
-.fotorij{
+.fotorij {
     display: flex;
     justify-content: space-between;
-    background-color: #DFCA6E; 
+    background-color: #DFCA6E;
     background-repeat: no-repeat;
     padding: 1em;
     border-radius: 2em;
 }
 
-.kopje6{
+.kopje6 {
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
-    background-size: 220vw ;
+    background-size: 220vw;
     background-repeat: no-repeat;
     padding-left: 3em;
     padding-right: 3em;
 
- 
+
 }
 
 
@@ -293,12 +281,12 @@ img:active{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 150vw; 
+    background-size: 150vw;
     margin: 1em;
-   
+
 }
 
-.kopje71{
+.kopje71 {
     background-image: url(foto/verfvlek_groen_2.png);
     background-position: center;
     background-size: cover;
@@ -316,10 +304,10 @@ img:active{
     background-size: 110vw;
     background-repeat: no-repeat;
     margin: 1em;
-    
+
 }
 
-.kopje91{
+.kopje91 {
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-position: center;
     background-size: cover;
@@ -334,22 +322,22 @@ img:active{
     background-position: center;
     background-size: cover;
     background-size: 120vw;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     margin: 1em;
 }
 
 
-.kopje10{
+.kopje10 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
     background-size: 140vw;
     background-repeat: no-repeat;
-    margin: 1em; 
+    margin: 1em;
 
 }
 
-.kopje101{
+.kopje101 {
     background-image: url(foto/verfvlek_oranje_donker.png);
     background-position: center;
     background-size: cover;
@@ -359,7 +347,7 @@ img:active{
     padding-right: 3em;
 }
 
-.kopje14{
+.kopje14 {
     background-image: url(foto/verfvlek_groen_2.png);
     background-size: cover;
     background-position: center;
@@ -370,7 +358,7 @@ img:active{
     margin-bottom: 2em;
 }
 
-.kopje15{
+.kopje15 {
     background-image: url(foto/verfvlek_oranje_licht_kopje4.png);
     background-size: cover;
     background-size: 270vw;
@@ -385,7 +373,7 @@ img:active{
     justify-content: center;
 }
 
-.knopje_schooltuin{
+.knopje_schooltuin {
     background-color: #658066;
     padding: 1em;
     font-size: small;
@@ -394,12 +382,10 @@ img:active{
     transition: all 3ms ease;
 }
 
-.knopje_schooltuin:active{
+.knopje_schooltuin:active {
     transform: scale(1.25);
     background-color: #C78012;
 }
-
-
 
 footer img {
     width: 100%;
